@@ -1,0 +1,450 @@
+.rasm img{
+  width: 400px;
+  height: 300px;
+
+}
+.navbar{
+  width: 100%;
+  height: 120px;
+  box-shadow: 20px 0px 20px 5px gray;
+  }
+  .birinchi_qator_navbar{
+      width:90%;
+      margin: auto;
+      height: 60%;
+      display: flex;
+      align-items: center;
+  }
+  .logo img{
+      width:35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+  
+  }
+  .logo{
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: sans-serif;
+      color: rgb(84, 47, 118);
+      width: 140px;
+  }
+  .button{
+      width: 120px;
+      height: 40px;
+      background-color:dodgerblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      color: white;
+      font-size: 15px;
+      border-radius: 6px;
+      transition: .3s;
+      
+  
+  }
+  .tolov{
+      text-decoration: none;
+      color: black;
+  }
+  .tolov:hover{
+      text-decoration: none;
+      color: dodgerblue;
+  }
+  .taqqoslash_html{
+      text-decoration: none;
+      color:black; 
+  }
+  .taqqoslash_html:hover{
+      text-decoration: none;
+      color:dodgerblue; 
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .button:hover{
+      width: 120px;
+      height: 40px;
+      background-color:blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      color: white;
+      font-size: 15px;
+      border-radius: 6px;
+  }
+  
+  .navbar_input{
+      width:360px;
+      height: 40px;
+      margin-left: 20px;
+      border: 2px solid dodgerblue;
+      border-radius:9px 0 0 9px;
+      padding-left:10px;
+  color: dodgerblue;
+  }
+  
+  .button_navbardagi{
+      width: 100px;
+      height: 40px;
+      border: 2px solid dodgerblue;
+      border-radius: 0 9px 9px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: dodgerblue;
+      color: white;
+  }
+  .pages{
+      width: 600px;
+      height: 100%;
+      display: flex;
+      margin: auto;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .page1 i{
+  
+     margin-left: 20px;
+  }
+  .page1{
+    font-size: 15px;
+  }
+  .page1:hover{
+      color: dodgerblue;
+    }
+  
+    .page2:hover{
+  color: dodgerblue;
+   }
+  
+    .page2 i{
+      margin-left: 12px;
+  
+    }
+    .page3 i{
+      margin-left: 8px;
+  
+    }
+  
+    
+    .page3:hover{
+      color: dodgerblue;
+      
+       }
+       .page4 i{
+          margin-left: 16px;
+       }
+       .page4:hover{
+          color: dodgerblue;
+       }
+       .burchagidagi_0_savatcha_navbar{
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: blue;
+          color: white;
+          border-radius: 50%;
+          font-size: 12px;
+          margin-left: 27px;
+          margin-top: -43px;
+       }
+  
+       .page5 i{
+          font-size: 20px;
+          margin-left: 13px;
+       }
+       .page5:hover{
+          color: dodgerblue;
+       }
+       .page6 img{
+  margin-left: 20px;
+       }
+       .page6:hover{
+  color: dodgerblue;
+       }
+       
+  
+  .page7 i{
+      margin-left: 13px;
+  }
+       .page7:hover{
+  color: dodgerblue;
+       }
+  
+       .ikkinchi_qator{
+          width: 100%;
+          height: 50px;
+         border-top: 1px solid gray;
+          list-style: none;
+          display: flex;
+          font-size: 18px;
+          align-items: center;
+          justify-content: space-around;
+          padding-left: 75px;
+       }
+       .ikkinchi_qator li:hover{
+  color: dodgerblue;
+       }
+       .navbar{
+        width: 100%;
+        height: 120px;
+        box-shadow: 20px 0px 20px 5px gray;
+        }
+        .birinchi_qator_navbar{
+            width:90%;
+            margin: auto;
+            height: 60%;
+            display: flex;
+            align-items: center;
+        }
+        .logo img{
+            width:35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+        
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: sans-serif;
+            color: rgb(84, 47, 118);
+            width: 140px;
+        }
+        .button{
+            width: 120px;
+            height: 40px;
+            background-color:dodgerblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            color: white;
+            font-size: 15px;
+            border-radius: 6px;
+            transition: .3s;
+            
+        
+        }
+        .tolov{
+            text-decoration: none;
+            color: black;
+        }
+        .tolov:hover{
+            text-decoration: none;
+            color: dodgerblue;
+        }
+        .taqqoslash_html{
+            text-decoration: none;
+            color:black; 
+        }
+        .taqqoslash_html:hover{
+            text-decoration: none;
+            color:dodgerblue; 
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        .button:hover{
+            width: 120px;
+            height: 40px;
+            background-color:blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            color: white;
+            font-size: 15px;
+            border-radius: 6px;
+        }
+        
+        .navbar_input{
+            width:360px;
+            height: 40px;
+            margin-left: 20px;
+            border: 2px solid dodgerblue;
+            border-radius:9px 0 0 9px;
+            padding-left:10px;
+        color: dodgerblue;
+        }
+        
+        .button_navbardagi{
+            width: 100px;
+            height: 40px;
+            border: 2px solid dodgerblue;
+            border-radius: 0 9px 9px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: dodgerblue;
+            color: white;
+        }
+        .pages{
+            width: 600px;
+            height: 100%;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .page1 i{
+        
+           margin-left: 20px;
+        }
+        .page1{
+          font-size: 15px;
+        }
+        .page1:hover{
+            color: dodgerblue;
+          }
+        
+          .page2:hover{
+        color: dodgerblue;
+         }
+        
+          .page2 i{
+            margin-left: 12px;
+        
+          }
+          .page3 i{
+            margin-left: 8px;
+        
+          }
+        
+          
+          .page3:hover{
+            color: dodgerblue;
+            
+             }
+             .page4 i{
+                margin-left: 16px;
+             }
+             .page4:hover{
+                color: dodgerblue;
+             }
+             .burchagidagi_0_savatcha_navbar{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: blue;
+                color: white;
+                border-radius: 50%;
+                font-size: 12px;
+                margin-left: 27px;
+                margin-top: -43px;
+             }
+        
+             .page5 i{
+                font-size: 20px;
+                margin-left: 13px;
+             }
+             .page5:hover{
+                color: dodgerblue;
+             }
+             .page6 img{
+        margin-left: 20px;
+             }
+             .page6:hover{
+        color: dodgerblue;
+             }
+             
+        
+        .page7 i{
+            margin-left: 13px;
+        }
+             .page7:hover{
+        color: dodgerblue;
+             }
+        
+             .ikkinchi_qator{
+                width: 100%;
+                height: 50px;
+               border-top: 1px solid gray;
+                list-style: none;
+                display: flex;
+                font-size: 18px;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 75px;
+             }
+             .ikkinchi_qator li:hover{
+        color: dodgerblue;
+             }
+             @media screen and (max-width:1336px){
+                .ikkinchi_qator{
+                    width:90%;
+                    gap: 10px;
+                }
+                .ikkinchi_qator li:nth-child(5){
+                    display: none;
+                }
+             }
+             @media screen and (max-width:1361px){
+        .logo {
+            width: 100px;
+            font-size: 15px;
+            margin-left: -50px;
+        }
+             }
+             @media screen and (max-width:1075px){
+                .logo {
+                    width: 100px;
+                    font-size: 15px;
+                    margin-left: -50px;
+                    display: none;
+                }
+                     }
+        
+                     @media screen and (max-width:1040px){
+                     .navbar{
+                        margin-top: -20px;
+                     }
+                             }
+         @media screen and (max-width:1030px){
+         .navbar{
+           margin-top: -40px;
+         }
+           }
+           @media screen and (max-width:1020px){
+            .navbar{
+              margin-top: -50px;
+            }
+              }
+        
+              @media screen and (max-width:1000px){
+                .navbar{
+        display: none
+        ;       
+       }
+}
+.logooo{
+    text-decoration: none;
+    color: rgb(84, 47, 118)
+}
+.rasm{
+    width:600px;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}

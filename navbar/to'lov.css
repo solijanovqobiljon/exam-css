@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    box-shadow: 20px 0px 20px 5px gray;
+    position: fixed;
+    z-index: 10;
+    background-color:white;
+    margin-top: -640px;
+    }
+    .birinchi_qator_navbar{
+        width:90%;
+        margin: auto;
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width:35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: rgb(84, 47, 118);
+        width: 140px;
+    }
+    .button{
+        width: 120px;
+        height: 40px;
+        background-color:dodgerblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        color: white;
+        font-size: 15px;
+        border-radius: 6px;
+        transition: .3s;
+        
+    
+    }
+    .tolov{
+        text-decoration: none;
+        color: black;
+    }
+    .tolov:hover{
+        text-decoration: none;
+        color: dodgerblue;
+    }
+    .taqqoslash_html{
+        text-decoration: none;
+        color:black; 
+    }
+    .taqqoslash_html:hover{
+        text-decoration: none;
+        color:dodgerblue; 
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button:hover{
+        width: 120px;
+        height: 40px;
+        background-color:blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        color: white;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    
+    .navbar_input{
+        width:360px;
+        height: 40px;
+        margin-left: 20px;
+        border: 2px solid dodgerblue;
+        border-radius:9px 0 0 9px;
+        padding-left:10px;
+    color: dodgerblue;
+    }
+    
+    .button_navbardagi{
+        width: 100px;
+        height: 40px;
+        border: 2px solid dodgerblue;
+        border-radius: 0 9px 9px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: dodgerblue;
+        color: white;
+    }
+    .pages{
+        width: 600px;
+        height: 100%;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .page1 i{
+    
+       margin-left: 20px;
+    }
+    .page1{
+      font-size: 15px;
+    }
+    .page1:hover{
+        color: dodgerblue;
+      }
+    
+      .page2:hover{
+    color: dodgerblue;
+     }
+    
+      .page2 i{
+        margin-left: 12px;
+    
+      }
+      .page3 i{
+        margin-left: 8px;
+    
+      }
+    
+      
+      .page3:hover{
+        color: dodgerblue;
+        
+         }
+         .page4 i{
+            margin-left: 16px;
+         }
+         .page4:hover{
+            color: dodgerblue;
+         }
+         .burchagidagi_0_savatcha_navbar{
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+            color: white;
+            border-radius: 50%;
+            font-size: 12px;
+            margin-left: 27px;
+            margin-top: -43px;
+         }
+    
+         .page5 i{
+            font-size: 20px;
+            margin-left: 13px;
+         }
+         .page5:hover{
+            color: dodgerblue;
+         }
+         .page6 img{
+    margin-left: 20px;
+         }
+         .page6:hover{
+    color: dodgerblue;
+         }
+         
+    
+    .page7 i{
+        margin-left: 13px;
+    }
+         .page7:hover{
+    color: dodgerblue;
+         }
+    
+         .ikkinchi_qator{
+            width: 100%;
+            height: 50px;
+           border-top: 1px solid gray;
+            list-style: none;
+            display: flex;
+            font-size: 18px;
+            align-items: center;
+            justify-content: space-around;
+            padding-left: -75px;
+         }
+         .ikkinchi_qator li:hover{
+    color: dodgerblue;
+         }
+         @media screen and (max-width:1336px){
+            .ikkinchi_qator{
+                width:90%;
+                gap: 10px;
+            }
+            .ikkinchi_qator li:nth-child(5){
+                display: none;
+            }
+         }
+         @media screen and (max-width:1361px){
+    .logo {
+        width: 100px;
+        font-size: 15px;
+        margin-left: -50px;
+    }
+         }
+         @media screen and (max-width:1075px){
+            .logo {
+                width: 100px;
+                font-size: 15px;
+                margin-left: -90px;
+            }
+            .ikkinchi_qator{
+                width: 1055px;
+                border-bottom: 1px solid gray;
+            }
+                 }
+    
+    
+    
+    
+    
+              .yozuv{
+                  font-size: 20px;
+                  font-weight: 700;
+                  width: 100%;
+                  display: flex;
+                  justify-content:space-between;
+                }
+                .yozuv p:nth-child(2){
+                    color: dodgerblue;
+                    font-size: 18px;
+                }
+    .banner_navbarni_pastidagi{
+        width: 90%;
+        height: 180px;
+      transform: translateY(200px);
+      margin: auto;
+      display: flex;
+    
+      gap: 20px;
+    }
+    .rasm11{
+       height: 100%;
+       width: 25%;
+       background: url(./bannerdagi.img/navbarni\ pasti.png) no-repeat center/cover;
+       border-radius: 12px;
+    }
+    
+    .rasm22{
+        height: 100%;
+        width: 25%;
+        background: url(./bannerdagi.img/navbarni\ pastidagi.png) no-repeat center/cover;
+        border-radius: 12px;
+     }
+    
+     .rasm33{
+        height: 100%;
+        width: 25%;
+        background: url(./bannerdagi.img/navbar\ 33.png) no-repeat center/cover;
+        border-radius: 12px;
+     }
+     .rasm44{
+        height: 100%;
+        width:25%;
+        background: url(./bannerdagi.img/navbar\ 44.png) no-repeat center/cover;
+        border-radius: 12px;
+     }
+    
+    .banners{
+    margin: auto;
+    width: 90%;
+    min-height: 100vh;
+    
+    transform: translateY(230px);
+    }
+    .banner_getjetlar{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        display: flex; 
+        flex-wrap: wrap;
+    
+        gap:16px;
+    }
+    .pages21{
+        width: 260px;
+        height: 440px;
+        border-radius: 12px;
+        transition: .5s;
+    background-color: white;    
+    box-shadow: 1px 1px 10px 0px  gray;
+    }
+    
+    .pages21:hover{
+        width: 260px;
+        height: 440px;
+        border-radius: 12px;
+        transform: scale(1.05);
+        color: dodgerblue;  
+    }
+    .rasm_turadigan_joy_banner img{
+    width: 200px;
+    height: 180px;
+    
+    }
+    .rasm_turadigan_joy_banner{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .yozuv_bannerdagi{
+        width: auto;
+        height: 25px;
+        background-color: orange;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        margin-left: -140px;
+        margin-top: -130px;
+        position: absolute;
+    padding: 10px;
+        
+    }
+    .yozuv_bannerdagi1{
+        width: auto;
+        height: 25px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        margin-left: -140px;
+        margin-top: -130px;
+        position: absolute;
+    padding: 10px;
+    }
+    .iconla{
+        font-size: 22px;
+        margin-top: -70px;
+        color: gray;
+        position: absolute;
+        margin-left: 200px;
+    }
+    .iconla i{
+        margin-top: 10px;
+    }
+    .yozuvla__bannerdagi{
+        width: 90%;
+        margin-left: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iconla_yulduz{
+        color: rgb(195, 72, 11);
+        margin-top: 15px;
+        margin-left: 16px;
+        display: flex;
+    }
+    .ikkita_shrx{
+        margin-left: 70px;
+        font-size: 13px;
+        color: gray;
+    }
+    .yozuvla_kok{
+        width: 100%;
+        height: 250px;
+    }
+    .yulduzni_pasti_yozuv{
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+    .yulduzni_pasti_yozuv del{
+        color: gray;
+        font-size: 14px;
+    }
+    .yulduzni_pasti_yozuv p{
+        font-size: 25px;
+        color: dodgerblue;
+        font-weight: 700;
+    }
+    .orange_div{
+        width: 93%;
+        margin: auto;
+        border: 1px solid orange;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 10px;
+        color: orange;
+        font-weight: 500;
+    }
+    .butoonla_va_savatcha{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .button_bannerdagi_kok{
+    width: 170px;
+    height:35px;
+    background:dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+    transition: .5s;
+    }
+    
+    .button_bannerdagi_kok:hover{
+        width: 170px;
+        height:35px;
+        background: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 10px;
+        color: white;
+        }
+    .savatcha_bannerdagi{
+        width: 55px;
+        height: 35px;
+        background-color: rgb(32, 170, 142);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius:6px;
+    
+    
+    }
+    .ikkinchi_qator_banners{
+        margin-top: 30px;
+        display: flex;
+        gap: 14px;
+    }
+    
+    @media screen and (max-width:1500px) {
+    .banners{
+        width: 1370px;
+        gap: 13px;
+    }
+    }
+    @media screen and (max-width:1194px) {
+    .banners{
+        width: 1100px;
+        margin-left: 60px;
+    }
+    }
+    @media screen and (max-width:1100px) {
+    .banners{
+        width: 1000px;
+        margin-left: 60px;
+    }
+    .rasm44{
+    display: none;
+    }
+    .banner_navbarni_pastidagi{
+        width: 1030px;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rasm11{
+        width: 33.33%;
+    
+    }
+    .rasm22{
+        width: 33.33%;
+    
+    }
+    .rasm33{
+        width: 33.33%;
+    
+    }
+    .banners{
+        width: 1030px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pages21{
+        margin: auto;
+    }
+    }
+    @media screen and (max-width:1900px) {
+        .till{
+           display: none; 
+        }
+    }
+    @media screen and (max-width:995px) {
+    .ikkinchi_qator{
+        display: none;
+    }
+    .logo{
+    margin: auto;
+    font-size: 30px;
+    
+    }
+    .button{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }
+    .navbar_input{
+        margin-top: 120PX;
+        width: 900px;
+        position: absolute;
+        margin-left: -30px;
+    }
+    .button_navbardagi{
+        position: absolute;
+        margin-left: 860px;
+        margin-top: 120PX;
+    
+    }
+    .button {
+        display: flex;
+        position: absolute;
+    margin-right: 1100px;
+    background: white;   
+    color: dodgerblue; 
+    font-size: 30px;
+    width: 1px;
+    }
+    .button a{
+        display: none;
+      
+    }
+    .till{
+        width: 100px;
+        height: 40px;
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 910px;
+        margin-top: -50px;
+        border-radius: 6px;
+      
+        
+    }
+    .taqqoslash_html{
+        
+        position: absolute;
+    }
+    .navbar{
+        height: 140px;
+    }
+    
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+   padding-top: 60px;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+.banner{
+    width: 80%;
+    height: 80vh;
+background-color: white;
+border-radius: 20px;
+box-shadow: 2px 10px 10px 5px gray;
+display: flex;
+}
+.chap_tomoni{
+    width: 45%;
+    height: 100%;
+
+
+}
+.banner h1,  h4 {
+   display: flex;
+   justify-content: center;
+   
+}
+.banner h1{
+margin-top: 70px;
+
+}
+.banner h4{
+color: gray;
+}
+.input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+    margin-top:20px;
+    margin-left: 40px;
+}
+h6{
+text-align: center;
+margin-top: 40px;
+color: rgb(72, 71, 71);
+}
+.buttonn{
+    width: 340px;
+    height: 40px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 12px;
+    color: white;
+}
+.buttonn:hover{
+    width: 340px;
+    height: 40px;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 12px;
+    color: white;
+}
+.ong_tomonii{
+    display: flex;
+    align-items: center;
+    margin-left:150px;
+}
