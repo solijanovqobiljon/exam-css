@@ -1043,6 +1043,171 @@ height: 60px;
 
 }
 
+@media screen and (max-width:688px){
+    .navbar{
+        height: 300px;
+    }
+    
+.banner_getjetlar{
+    width:1200px;
+    transform: scale(1.5);
+    transform: translateY(100px);
+    transform: translateX(15px);
+
+}
+.navbar{
+    width: 1300px;
+}
+.Asaxiy{
+    width: 1200px;
+}
+.fixedli_joyi{
+    transform: translateX(-900px);
+}
+.body{
+    width: 100wh;
+}
+    
+.footerni_tevasidagi{
+    width: 1200px;
+
+}
+
+.logo{
+transform: translateX(-340px);
+}
+.navbar_input{
+    width: 930px;
+}
+.button_navbardagi{
+    margin: 0;
+    margin-top: 195px;
+transform: translateX(730px);
+
+}
+.till{
+    margin: 0;
+    margin-top: -110px;
+transform: translateX(969px);
+
+}
+.footerni_tevasidagi{
+    height: 1200px;
+}
+.footerni_tevasidagini_ichidagi_oq{
+    height: 900px;
+    border-radius: 40px;
+    display: flex;
+   
+}
+.footerdagi_yozuvla{
+    font-size: 25px;
+}
+.birinchi_yozuv_va_img img{
+    width:120px;
+    height: 120px;
+    margin-left: -100px;
+}
+.footerdagi_yozuvla h1{
+    font-size: 25px;
+    width: 600px;
+
+}
+.footerdagi_yozuvla li{
+    width: 400px;
+    display: flex; 
+    font-size: 24px;
+}
+.foooteer{
+    height: 1000px;
+    font-size: 25px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_yozuvla1{
+    font-size: 50px;
+width: 100%;
+line-height: 80px;
+}
+.footer_yozuvla1 h1{
+    font-size: 50px;
+}
+.footer_yozuvla1 li{
+    font-size: 50px;
+}
+.ikkinchi_qator_footer{
+   bottom: 0;
+}
+.footer_yozuvla2{
+    font-size: 75px;
+    width: 1200px;
+    line-height: 80px;
+}
+.divlar_footerdagi{
+    margin-top: 25px;
+}
+.footer_yozuvla2 h1{
+    font-size: 56px;
+    transform: translateX(90px);
+}
+.divlar_footerdagi img{
+width: 100px;
+height: 100px;
+}
+.divlar_footerdagi{
+    height: 190px;
+    border-radius: 20px;
+}
+.footer_yozuvla3{
+    font-size: 50px;
+    width: 100%;
+    line-height: 80px;
+    margin: 0%;
+    margin-left: 20px;
+}
+.bir_foooter{
+    width: 100%;
+    height: 200px;
+}
+.bir_foooter img{
+    width: 400px;
+    height: 100px;
+}
+.footer_harhil_iconla {
+    font-size:155px;
+    width: 100%;
+    transform: translateY(100px);
+}
+.ikkinchi_qator_footer{
+    display: none;
+}
+
+
+
+
+
+
+    }
+
+    @media screen and (max-width:990px) {
+        .footerdagi_yozuvla li{
+            font-size: 25px;
+        }
+        .fixedli_joyi{
+            margin: 0;
+            transform: translateX(1600px) translateY(1000px);
+
+        }
+    }
+    @media screen and (max-width:690px) {
+     
+        .fixedli_joyi{
+        display: none;
+
+        }
+    }
+
 
 
 
